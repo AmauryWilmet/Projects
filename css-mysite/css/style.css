@@ -1,0 +1,171 @@
+/*
+GLOBAL
+*/
+
+:root {
+  --font-para-h2: 'Merriweather', serif;
+  --font-h2: 'Poppins', sans-serif;
+  --font-h3: 'Raleway', sans-serif;
+  --color-h2: #C1AC95;
+  --color-h3-a: #B5CDA3;
+}
+
+hr {
+  border-style: dashed;
+  border-width: 3px;
+  border-color: rgba(0, 0, 0, 0.2);
+  width: 40px;
+}
+
+p {
+  font-family: var(--font-para-h2);
+  font-size: 15px;
+}
+
+h1, h2 {
+  color: var(--color-h2);
+}
+
+h3{
+  color: var(--color-h3-a);
+}
+
+a {
+  color: var(--color-h3-a);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: var(--font-h2);
+  font-size: 30px;
+}
+
+h3 {
+  font-family: var(--font-h3);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+section {
+  text-align: center;
+  padding: 20px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+/*
+HEADER
+*/
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 46px;
+  line-height: 2;
+}
+
+header h2 {
+  font-weight: normal;
+  font-size: 22px;
+  font-family: var(--font-para-h2)
+}
+
+header {
+  padding-top: 80px;
+  position: relative;
+  background: #C9E4C5;
+  text-align: center;
+  margin: -10px;
+}
+
+#top-cloud {
+  position: absolute;
+  top: 60px;
+  right: 250px;
+}
+
+#bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
+
+#presentation img {
+  margin-top: 50px;
+}
+
+
+/*
+SKILLS
+*/
+
+#skills #gif-border {
+  border-radius:20px;
+  border:solid 1px #999;
+  width:50%;
+  height:200px;
+  overflow:hidden;
+  margin: 30px auto 40px 0px;
+}
+
+#skills img {
+  width: 25%;
+}
+
+.row-skills {
+  text-align: left;
+  width: 40%;
+  margin: 100px auto 100px auto;
+  padding-top: 50px;
+}
+
+#skills img {
+  float: left;
+  margin-right: 20px;
+  position: relative;
+  bottom: 20px;
+}
+
+#skills #gif-border {
+  float: right;
+  position: relative;
+  bottom: 50px;
+}
+
+#for-finish {
+  border: none;
+  margin-bottom: 50px;
+}
+
+#for-finish p {
+  margin-bottom: 80px;
+}
+
+/*
+FOOTER
+*/
+footer {
+  text-align: center;
+  padding: 40px;
+  background: var(--color-h2);
+  margin: -5px;
+}
+
+footer a {
+  font-size: 24px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  padding-right: 10px;
+}
+
+footer p {
+  color: #EAF6F6;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.button-contact {
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  background: linear-gradient(#C9E4C5, #B5CDA3);
+}

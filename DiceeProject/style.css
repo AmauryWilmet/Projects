@@ -1,0 +1,49 @@
+i {
+  font-size: 6rem;
+  padding: 20px;
+  color: #9c060c;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+p {
+  font-family: 'Yomogi', cursive;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 4% 5%;
+}
+
+.container p {
+  color: #73d7a7;
+  font-size: 2rem;
+}
+
+.container div {
+  text-align: center;
+  padding: 20px;
+}
+
+body {
+  background: #3e3a48;
+}
+
+h1 {
+  color: #73d7a7;
+  font-size: 4rem;
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+  font-family: 'Anton', sans-serif;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  font-size: 1.1rem;
+}
